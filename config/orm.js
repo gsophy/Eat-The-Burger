@@ -1,5 +1,5 @@
 //Define the dependencies
-var connection = require("/.connection.js");
+var connection = require("./connection.js");
 
 var orm = {
     selectAll: function(tableInput, callback) {
